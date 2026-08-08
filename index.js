@@ -18,7 +18,7 @@ const hitCache = new Map(); // 🌟 CACHE SEMENTARA UNTUK HASIL LINK DARI /HIT
 // --- DATABASE & SETTING OWNER ---
 const USER_DB_FILE = 'users.json'; 
 const PEMBELI_DB_FILE = 'pembeli.json'; 
-const OWNER_ID = 8216887895; 
+const OWNER_ID = 1381701844; 
 const REQUIRED_CHANNEL = '@agastrastore'; 
 
 // --- SETTING KANAL ARSIP OWNER ---
