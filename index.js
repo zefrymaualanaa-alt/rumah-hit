@@ -1015,9 +1015,9 @@ bot.command('hit', async (ctx) => {
     let targetTotal = parseInt(args[1]);
 
     // 👉 BATASAN MAKSIMAL 20 UNTUK SEMUA ORANG (TERMASUK OWNER)
-    if (targetTotal === 0 || targetTotal > 20) {
-        targetTotal = 20;
-        ctx.reply('⚠️ *INFO SISTEM:*\nPermintaan disesuaikan menjadi maksimal *20 link* per eksekusi untuk menjaga performa bot.', { parse_mode: 'Markdown' });
+    if (targetTotal === 0 || targetTotal > 50) {
+        targetTotal = 50;
+        ctx.reply('⚠️ *INFO SISTEM:*\nPermintaan disesuaikan menjadi maksimal *50 link* per eksekusi untuk menjaga performa bot.', { parse_mode: 'Markdown' });
     }
 
     // 🌟 PROTEKSI DOUBLE HIT
